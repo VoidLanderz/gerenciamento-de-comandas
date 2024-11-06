@@ -1,0 +1,125 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    background-color: rgb(130, 99, 139);
+    overflow-y: auto;
+}
+
+button {
+    display: inline-block;
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    color: #FFF;
+}
+
+.btn-add {
+    background-color:blue;
+    transition: all 0.1s;
+}
+
+.btn-add:hover {
+    background-color: rgb(9, 9, 153) ;
+}
+
+.btn-atualizar {
+    background-color: #15b32a;
+    transition: all 0.1s;
+}
+
+.btn-atualizar:hover {
+    background-color:  #287728;
+}
+
+.btn-remover {
+    background-color: #d10505;
+    transition: all 0.1s;
+}
+
+.btn-remover:hover {
+    background-color: rgb(190, 7, 7) ;
+}
+
+.acao-pedido {
+    margin-top: 10px;
+}
+
+.acao-pedido button {
+    margin-bottom: 2px;
+}
+
+#nao-existe {
+    color: #d3d3d3;
+    justify-self: center;
+    align-self: center;
+    margin: 15px 0;
+}
+
+.gerenciamento-pedidos {
+    background-color: rgb(48, 48, 48);
+    padding: 20px;
+    max-width: 600px;
+    margin: 50px auto;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.titulo-gerenciamento {
+    font-size: 28px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+
+.subtitulo-pedidos {
+    font-size: 22px;
+    color :rgb(209, 209, 209);
+    margin-bottom: 15px;
+}
+
+.formulario {
+    margin: 15px 0;
+}
+
+.formulario label {
+    display: block;
+    margin-bottom: 5px;
+    color: rgb(206, 206, 206);
+}
+
+.formulario input {
+    width: calc(100% - 22px);
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.pedidos {
+    display: grid;
+    position: relative;
+    margin-top: 30px;
+}
+
+.lista-pedidos {
+    list-style: none;
+    padding: 0;
+}
+
+#lista-pedidos li {
+    background-color: #ffffff;
+    padding: 10px;
+    border: 1px solid rgb(255, 255, 255);
+    border-bottom: 10px;
+    border-radius: 4px;
+    margin-bottom: 10px; /* Para separar os itens da lista */
+}
