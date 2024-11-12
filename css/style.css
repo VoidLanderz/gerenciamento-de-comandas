@@ -60,10 +60,10 @@ button {
 }
 
 #nao-existe {
-    color: #d3d3d3;
-    justify-self: center;
-    align-self: center;
-    margin: 15px 0;
+    color: #3b3b3b;
+    text-align: center;
+    display: block;
+    width: 100%;
 }
 
 .gerenciamento-pedidos {
